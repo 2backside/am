@@ -1,0 +1,20 @@
+{
+  "golden": {
+    "id": "golden",
+    "name": "Golden Badges",
+    "icon": "https://github.com/2backside/am/blob/main/discord_bughunterlv2.png?raw=true",
+    "badges": [
+      {
+        "id": "bughunter",
+        "c_id": "golden",
+        "name": "Golden Bug Hunter",
+        "tooltip": "Golden Bug Hunter",
+        "icon": "https://github.com/2backside/am/blob/main/discord_bughunterlv2.png?raw=true",
+        "url": "https://discord.com/security",
+        "users": [
+          "1169300956802973716"
+        ]
+      }
+    ]
+  }
+}
