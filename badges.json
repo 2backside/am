@@ -13,7 +13,9 @@
         "url": "https://discord.com/invite/bugbounty",
         "users": [
           "846831797006237750"
-        ]
+        ],
+        "squircle": false,
+        "global": false
       }
     ]
   }
