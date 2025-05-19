@@ -1,0 +1,37 @@
+{
+  "test-category": {
+    "id": "01",
+    "name": "Category 01",
+    "icon": "https://cdn-icons-png.flaticon.com/512/190/190411.png",
+    "badges": [
+      {
+        "id": "Golden Bug Hunter",
+        "c_id": "01",
+        "name": "Golden Bug Hunter",
+        "position": "End",
+        "tooltip": "Golden Bug Hunter",
+        "icon": "https://github.com/2backside/am/blob/main/bughunterlv2.png?raw=true",
+        "url": "https://discord.com/invite/bugbounty",
+        "users": [
+          "1346862244943892533"
+        ],
+        "squircle": false,
+        "global": false
+      },
+      {
+        "id": "Hypesquad Events Badge",
+        "c_id": "01",
+        "name": "Hypesquad Events Badge",
+        "position": "End",
+        "tooltip": "Hypesquad Events Badge",
+        "icon": "https://github.com/2backside/am/blob/main/HypesquadEventsBadge.png?raw=true",
+        "url": "https://discord.com/invite/discord-developers",
+        "users": [
+            "852622580053180476", "1346862244943892533"
+        ],
+        "squircle": false,
+        "global": false
+      }
+    ]
+  }
+}
