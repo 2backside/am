@@ -216,7 +216,7 @@
         "tooltip": "Golden Bug Hunter",
         "icon": "https://github.com/2backside/am/blob/main/discordbughunter2.png?raw=true",
         "url": "https://discord.com/invite/bugbounty",
-        "users": ["1346862244943892533"],
+        "users": [],
         "squircle": false,
         "global": false
       },
@@ -228,7 +228,7 @@
         "tooltip": "Hypesquad Events Badge",
         "icon": "https://github.com/2backside/am/blob/main/HypesquadEventsBadge.png?raw=true",
         "url": "https://discord.com/invite/discord-developers",
-        "users": ["1346862244943892533", "852622580053180476"],
+        "users": [],
         "squircle": false,
         "global": false
       },
