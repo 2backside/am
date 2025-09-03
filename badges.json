@@ -216,7 +216,7 @@
         "tooltip": "Golden Bug Hunter",
         "icon": "https://github.com/2backside/am/blob/main/discordbughunter2.png?raw=true",
         "url": "https://discord.com/invite/bugbounty",
-        "users": ["1169300956802973716"],
+        "users": [],
         "squircle": false,
         "global": false
       },
@@ -300,7 +300,7 @@
         "tooltip": "Early Supporter Badge",
         "icon": "https://github.com/2backside/am/blob/main/earlysupporter.png?raw=true",
         "url": "https://discord.com/nitro",
-        "users": [],
+        "users": ["1169300956802973716"],
         "squircle": false,
         "global": false
       },
