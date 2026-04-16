@@ -1,0 +1,47 @@
+/* 1. Create space in the titlebar so the buttons don't overlap the "Amigos" text/icon */
+.bar_c38106 .leading_c38106 {
+    min-width: 65px !important; 
+}
+
+/* 2. Pull the navigation buttons out and pin them to the top-left titlebar */
+.backForwardButtons__63abb {
+    position: absolute !important;
+    top: 2px; /* Tweak this value to move the buttons up or down */
+    left: 12px; /* Tweak this value to move the buttons left or right */
+    z-index: 9999; /* Ensures they stay visible above the titlebar */
+    display: flex;
+    gap: 8px; /* Space between the two arrows */
+    
+    /* CRITICAL: Makes the buttons clickable instead of acting like a window-drag handle */
+    -webkit-app-region: no-drag !important; 
+}
+
+/* 3. Style the buttons to look clean and match the dark theme */
+.button__63abb {
+    color: var(--interactive-normal);
+    background: transparent;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Hover effects for active buttons */
+.button__63abb:hover {
+    background-color: var(--background-modifier-hover);
+    color: var(--interactive-hover);
+}
+
+/* Keep disabled buttons looking faded and remove hover effect */
+.button__63abb.disabled__63abb {
+    color: var(--interactive-muted);
+    cursor: not-allowed;
+}
+
+.button__63abb.disabled__63abb:hover {
+    background-color: transparent;
+}
